@@ -1,0 +1,111 @@
+#navbar{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    min-width:250px;
+    width:300px;
+    height:100%;
+    background-color:rgba(0, 110, 210, 1);
+    overflow-y: auto;
+  }
+  #navbar header{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    border-bottom:1px solid;
+    border-color:#fff;
+    padding-top:30px;
+    padding-bottom:30px;  
+  }
+  #navbar a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    padding-left:50px;
+    padding-bottom:25px;
+    padding-top:10px;
+    cursor: pointer;
+    border-bottom:1px solid;
+  }
+  #main-doc{
+    font-family:arial;
+    font-size: 17px;
+    margin-left:300px;
+    padding-left:20px;
+  }
+  #main-doc header{
+    font-weight: bold;
+    font-size: 30px;
+    color:rgba(0, 150, 250, 1);
+    padding:10px 0px;
+    border-bottom:1px solid;
+  }
+  #main-doc ul{
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    padding:10px 20px;
+  }
+  #main-doc ul.plantel {
+    display: block;
+    font-weight: normal; 
+    font-size: 17px; 
+    padding: 10px 40px; 
+  }
+  #main-doc ul.plantel li{
+      padding:8px 0;
+  }
+  #main-doc ul.estadistica li{
+    display: block;
+    font-weight: normal; 
+    font-size: 17px;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+  #Plantilla_y_Cuerpo_Técnico .jugadores{
+    color:rgba(0, 120, 270, 1);
+    font-weight: bold;
+    font-size: 20px;
+    padding-left:20px;
+  }
+  #Plantilla_y_Cuerpo_Técnico ol li{
+    padding:8px;
+    padding-left:3px
+  }
+  ol li{
+    padding:8px;
+  }
+  #Bibliografía a{
+    color:rgba(0, 120, 270, 1);
+  }
+  img{
+    width:100%;
+    height:auto;
+  }
+  @media only screen and (max-width: 815px) {
+    .menu {
+      height: 50px;
+    }
+    #navbar {
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 300px;
+      z-index: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    #navbar header{
+      font-size:35px
+    }
+    #main-doc {
+      position: absolute;
+      margin: 0px;
+      margin-top: 301px;
+    }
+  }
